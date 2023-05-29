@@ -1,0 +1,25 @@
+{
+  "name": "testing-jenkins-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonmrog/testing-jenkins-job.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonmrog/testing-jenkins-job/issues"
+  },
+  "homepage": "https://github.com/simonmrog/testing-jenkins-job#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  }
+}

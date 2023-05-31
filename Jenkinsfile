@@ -19,5 +19,10 @@ pipeline {
         sh 'npm run test'
       }
     }
+    stage("Run job") {
+      steps {
+        build wait: false, job: 'testing-job', parameters: [string(name: 'name', value: 'from Jenkins Pipeline')]
+      }
+    }
   }
 }
